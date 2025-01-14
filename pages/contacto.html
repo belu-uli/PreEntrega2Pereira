@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">BPQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="../inicio.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="./nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="./servicios.html" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="./obras.html" class="nav-link">Obras</a></li>
+                    <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="w-100">
+        <img src="../img/img.contacto/apartment-building-g399e4ea0c_640.jpg" class="img-fluid w-100" style="height: 400px; object-fit: cover;" alt="apartamentos">
+    </div>
+
+    <main class="container my-5">
+        <section class="mb-5">
+            <h2>Contacto</h2>
+            <hr>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre-usuario" class="form-label">Nombre</label>
+                    <input type="text" id="nombre-usuario" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellido-usuario" class="form-label">Apellido</label>
+                    <input type="text" id="apellido-usuario" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email-usuario" class="form-label">Email</label>
+                    <input type="email" id="email-usuario" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="consulta-usuario" class="form-label">Mensaje o comentario</label>
+                    <textarea id="consulta-usuario" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Ubicación</h2>
+            <hr>
+            <div class="mb-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209552.89791170022!2d-56.25583649681926!3d-34.84966502277595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1683044075692!5m2!1ses!2suy"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>Dirección: Montevideo, Uruguay</p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-envelope"></i>
+                    <p>Email: contacto@bpq.com</p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone"></i>
+                    <p>Teléfono: 0800 8999534</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-3">
+                    <h5>Descargá la App</h5>
+                    <p>Disponible en:</p>
+                    <a href="https://play.google.com/store/games?pli=1" class="btn btn-outline-light mb-2">Google Play</a>
+                    <a href="https://www.apple.com/app-store/" class="btn btn-outline-light">App Store</a>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <p><strong><i class="bi bi-telephone"></i> 0800 8999534</strong></p>
+                    <p class="text-muted">De L a V 9 a 21 / S y D 10 a 18</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://es-la.facebook.com/" class="text-white">Facebook</a>
+                        <a href="https://www.instagram.com/" class="text-white">Instagram</a>
+                        <a href="https://www.linkedin.com/" class="text-white">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Suscríbete para recibir novedades</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; Copyright All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
